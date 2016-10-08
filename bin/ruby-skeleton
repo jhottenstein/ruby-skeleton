@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative "../lib/ruby-skeleton"
+print "What is your name? "
+input = gets.chomp
+puts "Hello #{input}"
